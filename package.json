@@ -8,5 +8,13 @@
     "build": "tsc"
   },
   "author": "user",
-  "license": "MIT"
+  "license": "MIT",
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  }
 }
