@@ -2,7 +2,7 @@
   "name": "capacitor-youtube-pip",
   "version": "0.0.1",
   "description": "Capacitor plugin for YouTube Picture-in-Picture",
-  "main": "dist/plugin.js",
+  "main": "dist/plugin.ts",
   "types": "dist/definitions.d.ts",
   "scripts": {
     "build": "tsc"
