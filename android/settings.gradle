@@ -1,0 +1,5 @@
+include ':capacitor-android'
+include ':capacitor-youtube-pip'
+
+project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
+project(':capacitor-youtube-pip').projectDir = new File('../node_modules/capacitor-youtube-pip/android')

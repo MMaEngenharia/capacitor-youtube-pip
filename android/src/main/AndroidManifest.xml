@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.youtubepip">
+
+    <application>
+        <activity android:name=".PiPActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:supportsPictureInPicture="true"
+            android:exported="true"
+            android:label="YouTube PiP" 
+            android:resizeableActivity="true"/>
+    </application>
+
+</manifest>

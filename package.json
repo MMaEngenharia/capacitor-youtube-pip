@@ -1,0 +1,30 @@
+
+{
+  "name": "capacitor-youtube-pip",
+  "version": "1.0.0",
+  "description": "Capacitor plugin para YouTube Picture-in-Picture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "ios", "android", "CapacitorYoutubePip.podspec"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["capacitor", "plugin", "youtube", "pip", "picture-in-picture"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^7.0.0"
+  },
+   "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "capacitor": {
+    "web": "dist/plugin.js",
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  }
+}
